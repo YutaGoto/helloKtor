@@ -3,7 +3,7 @@ jobs:
   test:
     working_directory: ~/helloKtor
     docker:
-      - image: circleci/openjdk:8-jdk
+      - image: gradle:4.10-jdk8
     steps:
       - checkout
       - restore_cache:
