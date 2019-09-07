@@ -10,3 +10,9 @@
 - JVM: 12.0.2 (Oracle Corporation 12.0.2+10)
 - Gradle: 4.10
 - JavaSDK: 1.8
+
+## Run
+
+```sh
+$ ./gradlew run
+```
